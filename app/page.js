@@ -5,15 +5,16 @@ import {BsFillMoonStarsFill} from "react-icons/bs"
 import { useState } from "react";
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
 import deved from '/public/dev-ed-wave.png';
-import design from '../public/design.png'
-import code from '../public/code.png'
-import consulting from '../public/consulting.png'
-import web1 from "../public/web1.png"
+import Database from '../public/storage.png'
+import Design from '../public/design.png'
+import front from '../public/front.png'
+import web1 from "../public/web11.png"
 import web2 from "../public/web2.png"
 import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
 import web6 from "../public/web6.png"
+import clon from "../public/Frame 2.svg"
 
 
 
@@ -53,52 +54,49 @@ export default function Home() {
        </div>
        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-20 overflow-hidden md:h-96 md:w-96 '>
         <Image src={deved} layout='fill' objectFit='cover' />
+        
        </div>
       </section>
       <section>
        <div>
-       <h3 className='text-3xl py-1 font-lugarsimo dark:text-gray-200'>Services I offer</h3>
-        <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50 font-lugarsimo'>
-          Since the beginning of my journey as a freelance Developer, I've done remote work for <span className='text-teal-500'>agencies </span>
-          consulted for <span className='text-teal-500'>startups </span>
+       <h3 className='text-3xl py-1 font-lugarsimo dark:text-gray-200 text-center'>Services I offer</h3>
+        <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50 font-lugarsimo text-center'>
+          Since the beginning of my journey as a freelance Developer, I've completed plenty of side Project using defferent <span className='text-teal-500'>tools </span>
           and collaborated with talented people to creat digital products 
           for both business and consumer use.
         </p>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>
-          I offer from a wide range of services , including brand design and programming .
+          I offer from a wide range of services , including programming .
         </p>
        </div>
         <div className='lg:flex gap-10 '>
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image className='mx-auto' src={design} width={100} height={100}  />
-            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
+            <Image className='mx-auto' src={front} width={100} height={100}  />
+            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Front-end</h3>
             <p className='py-2 dark:text-gray-50'>
-              Creating elegant designs suited for
-               your new design theory.
+              Create a cleane and an understandable Design for your project
             </p>
-            <h4 className='py-4 text-teal-600 dark:text-gray-50'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Figma</p>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Illustrator</p>
+            <h4 className='py-4 text-teal-600 dark:text-gray-50'>Front end tools I use</h4>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>Next JS</p>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>Vite</p>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>Three JS</p>
           </div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image className='mx-auto' src={consulting} width={100} height={100}  />
-            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
+            <Image className='mx-auto' src={Database} width={100} height={100}  />
+            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Back-end</h3>
             <p className='py-2 dark:text-gray-50'>
-              Creating elegant designs suited for
-               your new design theory.
+            Create a cleane and an understandable Design for your project
             </p>
-            <h4 className='py-4 text-teal-600 dark:text-gray-50'>Design tools I use</h4>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Photoshop</p>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Figma</p>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>Illustrator</p>
+            <h4 className='py-4 text-teal-600 dark:text-gray-50'>Database tools I use</h4>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>PostgresQL</p>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>MySQL</p>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>redis</p>
           </div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
-            <Image className='mx-auto' src={code} width={100} height={100}  />
-            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Beautiful Designs</h3>
+            <Image className='mx-auto' src={Design} width={100} height={100}  />
+            <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Designs</h3>
             <p className='py-2 dark:text-gray-50'>
-              Creating elegant designs suited for
-               your new design theory.
+               Create a cleane and an understandable Design for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Design tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>Photoshop</p>
@@ -110,24 +108,24 @@ export default function Home() {
         <section>
           <div>
                 <h3 className='text-3xl py-1 dark:text-gray-200 '>Portfolio</h3>
-                <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50'>
+                {/* <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50'>
                   Since the beginning of my journey as a freelance Developer, I've done remote work for <span className='text-teal-500'>agencies </span>
                   consulted for <span className='text-teal-500'>startups </span>
                   and collaborated with talented people to creat digital products 
                   for both business and consumer use.
-                </p>
+                </p> */}
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>
-                  I offer from a wide range of services , including brand design and programming .
+                  I offer from a wide range of services , including brand Database and programming .
                 </p>
           </div>
           <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap'>
               <div className='basis-1/3 flex-1'>
-                <Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
+                <a href='https://three-js-neon.vercel.app/'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1'>
                 <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
                 </div>
-              <div className='basis-1/3 flex-1'>
+              {/* <div className='basis-1/3 flex-1'>
                 <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
               </div>
               <div className='basis-1/3 flex-1'> 
@@ -138,7 +136,7 @@ export default function Home() {
               </div>
               <div className='basis-1/3 flex-1'>
                 <Image src={web6} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
-              </div>
+              </div> */}
             </div>
         </section>
       </main>
