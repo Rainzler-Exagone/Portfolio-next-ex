@@ -9,7 +9,7 @@ import Database from '../public/storage.png'
 import Design from '../public/design.png'
 import front from '../public/front.png'
 import web1 from "../public/web11.png"
-import web2 from "../public/web2.png"
+import Rental from "../public/Rental.png"
 import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
@@ -123,7 +123,7 @@ export default function Home() {
                 <a href='https://three-js-neon.vercel.app/'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></a>
               </div>
               <div className='basis-1/3 flex-1'>
-                <Image src={web2} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+                <Image src={Rental} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
                 </div>
               {/* <div className='basis-1/3 flex-1'>
                 <Image src={web3} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' />
