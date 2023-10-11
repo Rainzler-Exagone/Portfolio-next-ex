@@ -3,7 +3,9 @@ import Image from 'next/image'
 import Head from 'next/head'
 import {BsFillMoonStarsFill} from "react-icons/bs"
 import { useState } from "react";
-import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from "react-icons/ai"
+import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from "react-icons/ai"
+import {RiTwitterXFill} from "react-icons/ri"
+import {BiLogoReact} from "react-icons/bi"
 import deved from '/public/dev-ed-wave.png';
 import Database from '../public/storage.png'
 import Design from '../public/design.png'
@@ -27,6 +29,7 @@ export default function Home() {
     <meta name="description" content=""></meta>
     <link rel="icon" href="/favicon.ico"></link>
     <link rel='stylesheet' href='/app/globals.css'></link>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
     
     </Head>
     <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
@@ -43,23 +46,22 @@ export default function Home() {
        <div className='text-center p-10'> 
         <h2 className='text-5xl py-2 text-teal-600 font-lugarsimo'>Yasser Aimeur</h2>
         <h3 className='text-2xl py-2 dark:text-gray-50'>Developer</h3>
-        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-50'>
+        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-50 text-xl font-lugarsimo'>
           Freelancer providing services for programming 
           needs. Join me down blow and let's get cracking </p>
        </div>
        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 cursor-pointer'>
-        <AiFillTwitterCircle />
-        <AiFillLinkedin />
-        <AiFillYoutube />
+        <a href='https://twitter.com/TOPmoments11'><AiFillTwitterCircle /></a>
+        <a href='https://www.linkedin.com/in/yasser-aimeur-383930226/'><AiFillLinkedin /></a>
+        <a href='https://github.com/Rainzler-Exagone'><AiFillGithub /></a>
        </div>
        <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-20 overflow-hidden md:h-96 md:w-96 '>
         <Image src={deved} layout='fill' objectFit='cover' />
-        
        </div>
       </section>
       <section>
-       <div>
-       <h3 className='text-3xl py-1 font-lugarsimo dark:text-gray-200 text-center'>Services I offer</h3>
+       <div className='mt-10'>
+       <h3 className='text-3xl py-1 font-lugarsimo dark:text-gray-200 text-center mt-4'>Services I offer</h3>
         <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50 font-lugarsimo text-center'>
           Since the beginning of my journey as a freelance Developer, I've completed plenty of side Project using defferent <span className='text-teal-500'>tools </span>
           and collaborated with talented people to creat digital products 
