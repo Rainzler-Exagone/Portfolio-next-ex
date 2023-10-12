@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import {BsFillMoonStarsFill, BsGit} from "react-icons/bs"
 import { useState } from "react";
-import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from "react-icons/ai"
+import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillGithub} from "react-icons/ai"
 import {RiTwitterXFill} from "react-icons/ri"
 import {BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoHtml5, BiLogoCss3, BiLogoMongodb, BiLogoPostgresql, BiLogoJava} from "react-icons/bi"
 import {TbBrandNextjs, TbBrandThreejs, TbBrandVite} from "react-icons/tb"
@@ -81,7 +81,7 @@ export default function Home() {
          <BiLogoReact size={40} className='mx-8 dark:text-gray-400' />
          <BiLogoTailwindCss size={40} className='mx-8 dark:text-gray-400' />
          <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400' />
-         <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400' />
+         <AiFillGithub size={40} className='mx-8 dark:text-gray-400' />
          <TbBrandThreejs size={40} className='mx-8 dark:text-gray-400' />
          <TbBrandVite size={40} className='mx-8 dark:text-gray-400' />
          <BiLogoJava size={40} className='mx-8 dark:text-gray-400' />
