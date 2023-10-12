@@ -22,6 +22,7 @@ import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
 import web6 from "../public/web6.png"
 import clon from "../public/Frame 2.svg"
+import Marquee from "react-fast-marquee"
 
 
 
@@ -72,24 +73,26 @@ export default function Home() {
           and collaborated with talented people to creat digital products 
           for both business and consumer use.
         </p>
-        <div className='my-10 flex justify-center gap-5'>
-         <BiLogoHtml5 size={40}/>
-         <BiLogoCss3 size={40}/>
-         <BiLogoJavascript size={40}/>
-         <BiLogoReact size={40}/>
-         <BiLogoTailwindCss size={40}/>
-         <TbBrandNextjs size={40}/>
-         <TbBrandThreejs size={40}/>
-         <TbBrandVite size={40}/>
-         <BiLogoJava size={40}/>
-         <BiLogoPython size={40}/>
-         <BsGit size={40}/>
-         <BiLogoMongodb size={40}/>
-         <BiLogoPostgresql size={40}/>
-         <GrMysql size={40}/>
-         <IoLogoVercel size={40}/>
-         <SiNetlify size={40}/>
+        <div className='w-full h-full my-10 flex  justify-center gap-10 overflow-x-scroll scroll-smooth scrollbar-hide'>
+        <Marquee>
+        <BiLogoHtml5 size={40} className='mx-8' />
+         <BiLogoCss3 size={40} className='mx-8' />
+         <BiLogoJavascript size={40}  className='mx-8' />
+         <BiLogoReact size={40} className='mx-8' />
+         <BiLogoTailwindCss size={40} className='mx-8' />
+         <TbBrandNextjs size={40} className='mx-8' />
+         <TbBrandThreejs size={40} className='mx-8' />
+         <TbBrandVite size={40} className='mx-8' />
+         <BiLogoJava size={40} className='mx-8' />
+         <BiLogoPython size={40} className='mx-8' />
+         <BsGit size={40} className='mx-8' />
+         <BiLogoMongodb size={40} className='mx-8' />
+         <BiLogoPostgresql size={40} className='mx-8' />
+         <GrMysql size={40}className='mx-8' />
+         <IoLogoVercel size={40} className='mx-8'/>
+         <SiNetlify size={40} />
          
+        </Marquee>
         </div>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>
           I offer from a wide range of services , including programming .

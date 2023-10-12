@@ -16,7 +16,13 @@ module.exports = {
         'lugarsimo': ['Lugrasimo','cursive'],
         'poppins': ["Poppins", "sans-serif"],
       },
+      screens: {
+        'lg': '992px',
+        // => @media (min-width: 992px) { ... }
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
