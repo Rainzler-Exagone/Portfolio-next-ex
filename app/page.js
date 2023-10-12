@@ -1,11 +1,16 @@
 "use client"
 import Image from 'next/image'
 import Head from 'next/head'
-import {BsFillMoonStarsFill} from "react-icons/bs"
+import {BsFillMoonStarsFill, BsGit} from "react-icons/bs"
 import { useState } from "react";
 import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from "react-icons/ai"
 import {RiTwitterXFill} from "react-icons/ri"
-import {BiLogoReact} from "react-icons/bi"
+import {BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoHtml5, BiLogoCss3, BiLogoMongodb, BiLogoPostgresql, BiLogoJava} from "react-icons/bi"
+import {TbBrandNextjs, TbBrandThreejs, TbBrandVite} from "react-icons/tb"
+import {IoLogoVercel} from "react-icons/io5"
+import {BiLogoPython} from "react-icons/bi"
+import {SiNetlify} from "react-icons/si"
+import {GrMysql} from "react-icons/gr"
 import deved from '/public/dev-ed-wave.png';
 import Database from '../public/storage.png'
 import Design from '../public/design.png'
@@ -67,6 +72,25 @@ export default function Home() {
           and collaborated with talented people to creat digital products 
           for both business and consumer use.
         </p>
+        <div className='my-10 flex justify-center gap-5'>
+         <BiLogoHtml5 size={40}/>
+         <BiLogoCss3 size={40}/>
+         <BiLogoJavascript size={40}/>
+         <BiLogoReact size={40}/>
+         <BiLogoTailwindCss size={40}/>
+         <TbBrandNextjs size={40}/>
+         <TbBrandThreejs size={40}/>
+         <TbBrandVite size={40}/>
+         <BiLogoJava size={40}/>
+         <BiLogoPython size={40}/>
+         <BsGit size={40}/>
+         <BiLogoMongodb size={40}/>
+         <BiLogoPostgresql size={40}/>
+         <GrMysql size={40}/>
+         <IoLogoVercel size={40}/>
+         <SiNetlify size={40}/>
+         
+        </div>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>
           I offer from a wide range of services , including programming .
         </p>
@@ -92,7 +116,7 @@ export default function Home() {
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Database tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>PostgresQL</p>
             <p className='text-gray-800 py-1 dark:text-gray-50'>MySQL</p>
-            <p className='text-gray-800 py-1 dark:text-gray-50'>redis</p>
+            <p className='text-gray-800 py-1 dark:text-gray-50'>Mongodb</p>
           </div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10'>
             <Image className='mx-auto' src={Design} width={100} height={100}  />
