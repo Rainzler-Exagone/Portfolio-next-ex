@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Head from 'next/head'
 import {BsFillMoonStarsFill, BsGit} from "react-icons/bs"
 import { useState } from "react";
-import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub, AiFillGithub} from "react-icons/ai"
+import{AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube, AiFillGithub} from "react-icons/ai"
 import {RiTwitterXFill} from "react-icons/ri"
 import {BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoHtml5, BiLogoCss3, BiLogoMongodb, BiLogoPostgresql, BiLogoJava} from "react-icons/bi"
 import {TbBrandNextjs, TbBrandThreejs, TbBrandVite} from "react-icons/tb"
