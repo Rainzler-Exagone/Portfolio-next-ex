@@ -75,22 +75,23 @@ export default function Home() {
         </p>
         <div className='w-full h-full my-10 flex  justify-center gap-10 overflow-x-scroll scroll-smooth scrollbar-hide'>
         <Marquee>
-        <BiLogoHtml5 size={40} className='mx-8' />
-         <BiLogoCss3 size={40} className='mx-8' />
-         <BiLogoJavascript size={40}  className='mx-8' />
-         <BiLogoReact size={40} className='mx-8' />
-         <BiLogoTailwindCss size={40} className='mx-8' />
-         <TbBrandNextjs size={40} className='mx-8' />
-         <TbBrandThreejs size={40} className='mx-8' />
-         <TbBrandVite size={40} className='mx-8' />
-         <BiLogoJava size={40} className='mx-8' />
-         <BiLogoPython size={40} className='mx-8' />
-         <BsGit size={40} className='mx-8' />
-         <BiLogoMongodb size={40} className='mx-8' />
-         <BiLogoPostgresql size={40} className='mx-8' />
-         <GrMysql size={40}className='mx-8' />
-         <IoLogoVercel size={40} className='mx-8'/>
-         <SiNetlify size={40} />
+        <BiLogoHtml5 size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoCss3 size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoJavascript size={40}  className='mx-8 dark:text-gray-400' />
+         <BiLogoReact size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoTailwindCss size={40} className='mx-8 dark:text-gray-400' />
+         <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400' />
+         <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400' />
+         <TbBrandThreejs size={40} className='mx-8 dark:text-gray-400' />
+         <TbBrandVite size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoJava size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoPython size={40} className='mx-8 dark:text-gray-400' />
+         <BsGit size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoMongodb size={40} className='mx-8 dark:text-gray-400' />
+         <BiLogoPostgresql size={40} className='mx-8 dark:text-gray-400' />
+         <GrMysql size={40}className='mx-8 dark:text-gray-400' />
+         <IoLogoVercel size={40} className='mx-8 dark:text-gray-400'/>
+         <SiNetlify size={40} className='dark:text-gray-400'/>
          
         </Marquee>
         </div>
