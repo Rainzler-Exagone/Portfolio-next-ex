@@ -9,7 +9,7 @@ import {BiLogoJavascript, BiLogoReact, BiLogoTailwindCss, BiLogoHtml5, BiLogoCss
 import {TbBrandNextjs, TbBrandThreejs, TbBrandVite} from "react-icons/tb"
 import {IoLogoVercel} from "react-icons/io5"
 import {BiLogoPython} from "react-icons/bi"
-import {SiNetlify} from "react-icons/si"
+import {SiNetlify, SiPostman} from "react-icons/si"
 import {GrMysql} from "react-icons/gr"
 import deved from '/public/dev-ed-wave.png';
 import Database from '../public/storage.png'
@@ -91,7 +91,8 @@ export default function Home() {
          <BiLogoPostgresql size={40} className='mx-4 dark:text-gray-400 ' />
          <GrMysql size={40}className='mx-4 dark:text-gray-400 ' />
          <IoLogoVercel size={40} className='mx-4 dark:text-gray-400 '/>
-         <SiNetlify size={40} className='dark:text-gray-400 '/>
+         <SiPostman size={40} className='mx-4 dark:text-gray-400 '/>
+         <SiNetlify size={40} className='mx-4 dark:text-gray-400 '/>
          
         </Marquee>
         </div>
