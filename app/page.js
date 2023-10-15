@@ -73,25 +73,25 @@ export default function Home() {
           and collaborated with talented people to creat digital products 
           for both business and consumer use.
         </p>
-        <div className='w-full h-full my-10 flex  justify-center gap-10 overflow-x-scroll scroll-smooth scrollbar-hide'>
+        <div className='w-full h-full my-10 flex  justify-center gap-10 overflow-x-scroll scroll-smooth scrollbar-hide '>
         <Marquee>
-        <BiLogoHtml5 size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoCss3 size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoJavascript size={40}  className='mx-8 dark:text-gray-400' />
-         <BiLogoReact size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoTailwindCss size={40} className='mx-8 dark:text-gray-400' />
-         <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400' />
-         <AiFillGithub size={40} className='mx-8 dark:text-gray-400' />
-         <TbBrandThreejs size={40} className='mx-8 dark:text-gray-400' />
-         <TbBrandVite size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoJava size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoPython size={40} className='mx-8 dark:text-gray-400' />
-         <BsGit size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoMongodb size={40} className='mx-8 dark:text-gray-400' />
-         <BiLogoPostgresql size={40} className='mx-8 dark:text-gray-400' />
-         <GrMysql size={40}className='mx-8 dark:text-gray-400' />
-         <IoLogoVercel size={40} className='mx-8 dark:text-gray-400'/>
-         <SiNetlify size={40} className='dark:text-gray-400'/>
+        <BiLogoHtml5 size={40} className='mx-4 dark:text-gray-400  ' />
+         <BiLogoCss3 size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoJavascript size={40}  className='mx-4 dark:text-gray-400 ' />
+         <BiLogoReact size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoTailwindCss size={40} className='mx-4 dark:text-gray-400 ' />
+         <TbBrandNextjs size={40} className='mx-4 dark:text-gray-400 ' />
+         <AiFillGithub size={40} className='mx-4 dark:text-gray-400 ' />
+         <TbBrandThreejs size={40} className='mx-4 dark:text-gray-400 ' />
+         <TbBrandVite size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoJava size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoPython size={40} className='mx-4 dark:text-gray-400 ' />
+         <BsGit size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoMongodb size={40} className='mx-4 dark:text-gray-400 ' />
+         <BiLogoPostgresql size={40} className='mx-4 dark:text-gray-400 ' />
+         <GrMysql size={40}className='mx-4 dark:text-gray-400 ' />
+         <IoLogoVercel size={40} className='mx-4 dark:text-gray-400 '/>
+         <SiNetlify size={40} className='dark:text-gray-400 '/>
          
         </Marquee>
         </div>
@@ -137,7 +137,7 @@ export default function Home() {
       </section>
         <section>
           <div>
-                <h3 className='text-3xl py-1 dark:text-gray-200 '>Portfolio</h3>
+                <h3 className='text-3xl py-1 dark:text-gray-200 '>Side Projects</h3>
                 
                 <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-50'>
                   I offer from a wide range of services , including brand Database and programming .
