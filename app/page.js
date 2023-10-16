@@ -59,11 +59,11 @@ export default function Home() {
           needs. Join me down blow and let's get cracking </p>
        </div>
        <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 cursor-pointer'>
-        <a href='https://twitter.com/TOPmoments11'><AiFillTwitterCircle /></a>
-        <a href='https://www.linkedin.com/in/yasser-aimeur-383930226/'><AiFillLinkedin /></a>
-        <a href='https://github.com/Rainzler-Exagone'><AiFillGithub /></a>
+        <a href='https://twitter.com/TOPmoments11'><AiFillTwitterCircle className='hover:text-blue-500'/></a>
+        <a href='https://www.linkedin.com/in/yasser-aimeur-383930226/'><AiFillLinkedin  className='hover:text-blue-500'/></a>
+        <a href='https://github.com/Rainzler-Exagone'><AiFillGithub className='hover:text-blue-500'/></a>
        </div>
-       <div className=' mx-auto translate-x-0 translate-y-0 mt-20 overflow-auto md:h-96 md:w-96 '>
+       <div className=' mx-auto  mt-20 overflow-auto md:h-96 md:w-96 'id='programmer'>
         <Image src={programmer}  />
        </div>
       </section>
