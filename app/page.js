@@ -23,6 +23,8 @@ import web5 from "../public/web5.png"
 import web6 from "../public/web6.png"
 import clon from "../public/Frame 2.svg"
 import Marquee from "react-fast-marquee"
+import programmer from "../public/programmer.png"
+
 
 
 
@@ -61,8 +63,8 @@ export default function Home() {
         <a href='https://www.linkedin.com/in/yasser-aimeur-383930226/'><AiFillLinkedin /></a>
         <a href='https://github.com/Rainzler-Exagone'><AiFillGithub /></a>
        </div>
-       <div className='relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80 mt-20 overflow-hidden md:h-96 md:w-96 '>
-        <Image src={deved} layout='fill' objectFit='cover' />
+       <div className=' mx-auto translate-x-0 translate-y-0 mt-20 overflow-auto md:h-96 md:w-96 '>
+        <Image src={programmer}  />
        </div>
       </section>
       <section>
@@ -74,25 +76,25 @@ export default function Home() {
           for both business and consumer use.
         </p>
         <div className='w-full h-full my-10 flex  justify-center gap-10 overflow-x-scroll scroll-smooth scrollbar-hide '>
-        <Marquee>
-        <BiLogoHtml5 size={40} className='mx-4 dark:text-gray-400  ' />
-         <BiLogoCss3 size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoJavascript size={40}  className='mx-4 dark:text-gray-400 ' />
-         <BiLogoReact size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoTailwindCss size={40} className='mx-4 dark:text-gray-400 ' />
-         <TbBrandNextjs size={40} className='mx-4 dark:text-gray-400 ' />
-         <AiFillGithub size={40} className='mx-4 dark:text-gray-400 ' />
-         <TbBrandThreejs size={40} className='mx-4 dark:text-gray-400 ' />
-         <TbBrandVite size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoJava size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoPython size={40} className='mx-4 dark:text-gray-400 ' />
-         <BsGit size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoMongodb size={40} className='mx-4 dark:text-gray-400 ' />
-         <BiLogoPostgresql size={40} className='mx-4 dark:text-gray-400 ' />
-         <GrMysql size={40}className='mx-4 dark:text-gray-400 ' />
-         <IoLogoVercel size={40} className='mx-4 dark:text-gray-400 '/>
-         <SiPostman size={40} className='mx-4 dark:text-gray-400 '/>
-         <SiNetlify size={40} className='mx-4 dark:text-gray-400 '/>
+        <Marquee speed="30">
+        <BiLogoHtml5 size={40} className='mx-8 dark:text-gray-400  ' />
+         <BiLogoCss3 size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoJavascript size={40}  className='mx-8 dark:text-gray-400 ' />
+         <BiLogoReact size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoTailwindCss size={40} className='mx-8 dark:text-gray-400 ' />
+         <TbBrandNextjs size={40} className='mx-8 dark:text-gray-400 ' />
+         <AiFillGithub size={40} className='mx-8 dark:text-gray-400 ' />
+         <TbBrandThreejs size={40} className='mx-8 dark:text-gray-400 ' />
+         <TbBrandVite size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoJava size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoPython size={40} className='mx-8 dark:text-gray-400 ' />
+         <BsGit size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoMongodb size={40} className='mx-8 dark:text-gray-400 ' />
+         <BiLogoPostgresql size={40} className='mx-8 dark:text-gray-400 ' />
+         <GrMysql size={40}className='mx-8 dark:text-gray-400 ' />
+         <IoLogoVercel size={40} className='mx-8 dark:text-gray-400 '/>
+         <SiPostman size={40} className='mx-8 dark:text-gray-400 '/>
+         <SiNetlify size={40} className='mx-8 dark:text-gray-400 '/>
          
         </Marquee>
         </div>
