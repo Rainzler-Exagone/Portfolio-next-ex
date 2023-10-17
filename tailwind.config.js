@@ -15,6 +15,7 @@ module.exports = {
         'burtons': ["burtons"],
         'lugarsimo': ['Lugrasimo','cursive'],
         'poppins': ["Poppins", "sans-serif"],
+        'rubik': ['Rubik', 'sans-serif']
       },
       screens: {
         'lg': '992px',

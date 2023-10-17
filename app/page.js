@@ -40,7 +40,7 @@ export default function Home() {
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
     
     </Head>
-    <main className='bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900'>
+    <main className='bg-white px-10 md:px-20 lg:px-40 font-mono dark:bg-gray-900'>
       <section className='min-h-screen'>
        <nav className="py-10 mb-12 flex justify-between">
          <h1 className="text-xl font-mono dark:text-gray-50">DEVELOPEDBYME </h1>
@@ -52,9 +52,9 @@ export default function Home() {
          </ul>
        </nav>
        <div className='text-center p-10'> 
-        <h2 className='text-5xl py-2 text-teal-600 font-lugarsimo'>Yasser Aimeur</h2>
-        <h3 className='text-2xl py-2 dark:text-gray-50'>Developer</h3>
-        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-50 text-xl font-lugarsimo'>
+        <h2 className='text-5xl py-2 text-teal-600 font-mono'>Yasser Aimeur</h2>
+        <h3 className='text-2xl py-2 font-mono dark:text-gray-50'>Developer</h3>
+        <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-50 text-xl font-mono'>
           Freelancer providing services for programming 
           needs. Join me down blow and let's get cracking </p>
        </div>
@@ -69,8 +69,8 @@ export default function Home() {
       </section>
       <section>
        <div className='mt-10'>
-       <h3 className='text-3xl py-1 font-lugarsimo dark:text-gray-200 text-center mt-4'>Services I offer</h3>
-        <p className='text-md py-2 leading-8 text-gray-80 dark:text-gray-50 font-lugarsimo text-center'>
+       <h3 className='text-3xl py-1 font-mono dark:text-gray-200 text-center mt-4'>Services I offer</h3>
+        <p className='text-md py-2 leading-8 font-bold text-gray-80 dark:text-gray-50 font-mono text-center'>
           Since the beginning of my journey as a freelance Developer, I've completed plenty of side Project using defferent <span className='text-teal-500'>tools </span>
           and collaborated with talented people to creat digital products 
           for both business and consumer use.
