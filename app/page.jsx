@@ -24,6 +24,7 @@ import web6 from "../public/web6.png"
 import clon from "../public/Frame 2.svg"
 import Marquee from "react-fast-marquee"
 import programmer from "../public/programmer.png"
+import parallax from "../public/parallax.png"
 
 
 
@@ -53,7 +54,7 @@ export default function Home() {
        </nav>
        <div className='text-center p-10'> 
         <h2 className='text-5xl py-2 text-teal-600 font-mono'>Yasser Aimeur</h2>
-        <h3 className='text-2xl py-2 font-mono dark:text-gray-50'>Developer</h3>
+        <h3 className='text-2xl py-2 font-mono dark:text-gray-50'>Web Developer</h3>
         <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-50 text-xl font-mono'>
           Freelancer providing services for programming 
           needs. Join me down blow and let's get cracking </p>
@@ -146,14 +147,24 @@ export default function Home() {
                   I offer from a wide range of services , including brand Database and programming .
                 </p>
           </div>
-          <div className='flex flex-col gap-10 lg:flex-row lg:flex-wrap'>
-              <div className='basis-1/3 flex-1'>
-                <a href='https://three-js-neon.vercel.app/'><Image src={web1} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive' /></a>
+          <div className='flex flex-col mt-10 items-center gap-10 lg:flex-col lg:flex-wrap'>
+              <div className='basis-1/3 flex-1 w-1/2 hover:scale-110 ease-in-out transition-transform'>
+                <p className='text-2xl font-mono'>Project 1 : </p>
+                <p>Sphere Website using ThreeJS</p><br />
+                <a href='https://three-js-neon.vercel.app/'>
+                  <Image src={web1} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive' /></a>
               </div>
-              <div className='basis-1/3 flex-1'>
-                <Image src={Rental} className='rounded-lg object-cover' width={'100%'} height={'100%'} layout='responsive'/>
+              <div className='basis-1/3 flex-1 w-1/2 hover:scale-110 ease-in-out transition-transform'>
+                <p className='text-xl font-mono'>Project 2 : </p>
+                <p>Real Estate agencie Website </p><br />
+              <a href="https://realestate-4z0x4sq9m-rainzler-exagone.vercel.app/">
+                  <Image src={Rental} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/></a>
                 </div>
-              
+                <div className='basis-1/3 flex-1 w-1/2 hover:scale-110 ease-in-out transition-transform'>
+                  <p className='text-xl font-mono'>Project 3 : </p>
+                  <p>Parallax Scrolling Website</p><br />
+                  <Image src={parallax} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/>
+                </div>
             </div>
         </section>
       </main>
