@@ -160,11 +160,7 @@ export default function Home() {
               <a href="https://realestate-4z0x4sq9m-rainzler-exagone.vercel.app/">
                   <Image src={Rental} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/></a>
                 </div>
-                <div className='basis-1/3 flex-1 w-1/2 hover:scale-110 ease-in-out transition-transform'>
-                  <p className='text-xl font-mono'>Project 3 : </p>
-                  <p>Parallax Scrolling Website</p><br />
-                  <Image src={parallax} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/>
-                </div>
+                
             </div>
         </section>
       </main>

@@ -21,6 +21,16 @@ module.exports = {
         'lg': '992px',
         // => @media (min-width: 992px) { ... }
       },
+      animation: {
+        typewriter: "typewriter 3s steps(11) forwards"
+      },
+      keyframes: {
+        typewriter: {
+          to: {
+            left: "100%"
+          }
+        }
+      }
     },
   },
   plugins: [
