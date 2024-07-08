@@ -17,6 +17,7 @@ import Design from '../public/design.png'
 import front from '../public/front.png'
 import web1 from "../public/web11.png"
 import Rental from "../public/Rental.png"
+import Instant from "../public/instantCook.png"
 import web3 from "../public/web3.png"
 import web4 from "../public/web4.png"
 import web5 from "../public/web5.png"
@@ -49,7 +50,6 @@ export default function Home() {
           <li>
             <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className='cursor-pointer dark:text-gray-50'/>
           </li>
-          <li><a className="bg-gradient-to-r bg-cyan-500 text-white px-4 py-2 rounded-md ml-10"href="#">Resume</a></li>
          </ul>
        </nav>
        <div className='text-center p-10'> 
@@ -108,7 +108,7 @@ export default function Home() {
             <Image className='mx-auto' src={front} width={100} height={100}  />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Front-end</h3>
             <p className='py-2 dark:text-gray-50'>
-              Create a cleane and an understandable Design for your project
+              Create a cleane and an outsanding front-end for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Front end tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>Next JS</p>
@@ -119,7 +119,7 @@ export default function Home() {
             <Image className='mx-auto' src={Database} width={100} height={100}  />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Back-end</h3>
             <p className='py-2 dark:text-gray-50'>
-            Create a cleane and an understandable Design for your project
+            Create a cleane and an understandable backend infrastructure for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Database tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>PostgresQL</p>
@@ -159,6 +159,12 @@ export default function Home() {
                 <p>Real Estate agencie Website </p><br />
               <a href="https://realestate-4z0x4sq9m-rainzler-exagone.vercel.app/">
                   <Image src={Rental} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/></a>
+                </div>
+              <div className='basis-1/3 flex-1 w-1/2 hover:scale-110 ease-in-out transition-transform'>
+                <p className='text-xl font-mono'>Project 3 : </p>
+                <p>Meal proposer web application  </p><br />
+              <a href="https://realestate-4z0x4sq9m-rainzler-exagone.vercel.app/">
+                  <Image src={Instant} className='rounded-lg object-cover ' width={'100%'} height={'100%'} layout='responsive'/></a>
                 </div>
                 
             </div>
