@@ -108,7 +108,7 @@ export default function Home() {
             <Image className='mx-auto' src={front} width={100} height={100}  />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Front-end</h3>
             <p className='py-2 dark:text-gray-50'>
-              Create a cleane and an outsanding front-end for your project
+              Create a clean and an outsanding front-end for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Front end tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>Next JS</p>
@@ -119,7 +119,7 @@ export default function Home() {
             <Image className='mx-auto' src={Database} width={100} height={100}  />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Back-end</h3>
             <p className='py-2 dark:text-gray-50'>
-            Create a cleane and an understandable backend infrastructure for your project
+            Create a clean and an understandable backend infrastructure for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Database tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>PostgresQL</p>
@@ -130,7 +130,7 @@ export default function Home() {
             <Image className='mx-auto' src={Design} width={100} height={100}  />
             <h3 className='text-lg font-medium pt-8 pb-2 dark:text-gray-50'>Designs</h3>
             <p className='py-2 dark:text-gray-50'>
-               Create a cleane and an understandable Design for your project
+               Create a clean and an understandable Design for your project
             </p>
             <h4 className='py-4 text-teal-600 dark:text-gray-50'>Design tools I use</h4>
             <p className='text-gray-800 py-1 dark:text-gray-50'>Photoshop</p>
